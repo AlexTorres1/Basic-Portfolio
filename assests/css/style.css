@@ -9,7 +9,7 @@ body{
     position: relative;   
 }
 
-.container{
+.headerContainer{
     width: 960px;
     margin: auto;    
 }
@@ -110,9 +110,7 @@ h3{
     font-size: 20px;
     margin-top: 20px;
     background-size: 20px;
-    background-color: #4aaaa5    
-    
-    
+    background-color: #4aaaa5  
 }
 
 .inp{
@@ -120,7 +118,6 @@ h3{
     width: 100%
 }
 .message{
-    /*--- not sure why I have to add height above width for the code to work */
     height: 150px;
     width: 100%
 }
@@ -135,4 +132,14 @@ h3{
     height: 200px;
     margin: auto;
     /* could not figure out how to get the images to correctly follow the instructions.  Not sure how to add the text inside the images.  */
+}
+
+
+a:hover {
+    color: #4aaaa5;
+}
+  
+a{
+    text-decoration: none;
+    color: #777777;
 }
