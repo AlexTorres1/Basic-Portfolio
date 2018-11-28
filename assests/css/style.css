@@ -15,10 +15,10 @@ body{
 }
 
 .header{
-    background: #ffffff;
+    background: #1b242f;
     width: 100%;
     height: 80px;
-    border-bottom: 2px solid #cccccc; 
+    border-bottom: 3px solid #04c2c9; 
 }
 
 .h1{
@@ -28,7 +28,7 @@ body{
     /*not sure if this is the correct way but it works*/
     float: left;
     color: #eeeeee;
-    background-color: #4aaaa5    
+    background-color: #04c2c9    
 }
 
 nav {
@@ -69,7 +69,7 @@ nav li{
 }
 
 .h2{
-    color: #4aaaa5;
+    color: #04c2c9;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -78,10 +78,10 @@ nav li{
 }
 
 .footer{
-    background: #666666;
+    background: #1b242f;
     width: 100%;
     height:60px;
-    border-top: 8px solid #4aaaa5; 
+    border-top: 8px solid #04c2c9; 
     position: absolute; 
     bottom: 0;    
 }
@@ -110,7 +110,7 @@ h3{
     font-size: 20px;
     margin-top: 20px;
     background-size: 20px;
-    background-color: #4aaaa5  
+    background-color: #04c2c9;  
 }
 
 .inp{
@@ -136,7 +136,9 @@ h3{
 
 
 a:hover {
-    color: #4aaaa5;
+    color: #e31b6d;
+    transition: color .5s;
+    cursor: pointer;
 }
   
 a{
