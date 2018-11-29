@@ -114,12 +114,6 @@ h3{
     background-color: #04c2c9;  
 }
 
-.btn:hover{
-    color: #e31b6d;
-    transition: color .5s;
-    cursor: pointer;
-}
-
 .inp{
     height: 30px;    
     width: 100%
@@ -142,7 +136,7 @@ h3{
 }
 
 
-a:hover {
+a:hover, .btn:hover {
     color: #e31b6d;
     transition: color .5s;
     cursor: pointer;
