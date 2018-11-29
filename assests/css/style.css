@@ -55,6 +55,7 @@ nav li{
     max-width: 960px;
     margin: 80px auto;
     background-color: #ffffff;
+    position: relative;
 }
 
 .pic{
@@ -66,6 +67,7 @@ nav li{
 
 .pd{
     padding: 20px;
+    overflow: auto;
 }
 
 .h2{
@@ -133,6 +135,7 @@ h3{
     height: 200px;
     margin: auto;
     /* could not figure out how to get the images to correctly follow the instructions.  Not sure how to add the text inside the images.  */
+    position: relative;
 }
 
 
@@ -147,3 +150,33 @@ a{
     color: #777777;
 }
 
+.hover-text-1{
+    color: green;
+    width: 80%;
+    top: 20px;
+    left: 20px;
+    background: #e31b6d;
+    position: absolute;
+
+}
+
+.hover-text-2{
+    color: green;
+    width: 80%;
+    top: 20px;
+    left: 20px;
+    background: #04c2c9;
+    position: absolute;
+
+}
+
+.images{
+    float: left;
+    width: 33%;
+    padding: 5px;   
+}
+
+.clsImg{
+    max-width: 100%;
+    max-height: 100%;
+}

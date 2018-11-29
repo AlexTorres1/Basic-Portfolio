@@ -35,7 +35,6 @@ nav {
     padding-right: 23px;
     float: right;
     color: #777777;
-    list-style: none;
     margin-top: 20px
 }
 
@@ -50,7 +49,7 @@ nav li{
 
 .wrapper{
     border-style: solid;
-    border-color: #777777;
+    border-color: #c7c3c3;
     border-width: 1px;
     max-width: 960px;
     margin: 80px auto;
@@ -66,6 +65,7 @@ nav li{
 
 .pd{
     padding: 20px;
+    overflow: auto
 }
 
 .h2{
@@ -147,3 +147,65 @@ a{
     color: #777777;
 }
 
+.img{
+    margin: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+img{
+    width: 300px;
+    position: relative;
+}
+
+.hover1{
+    position: absolute;
+    background: #e31b6d;
+    top: 164px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
+}
+
+.hover2{
+    position: absolute;
+    background: #e31b6d;
+    top: 164px;
+    padding: 20.5px;
+    width: 29.5%;
+    left: 303px;
+    color: white;
+    text-align: center;
+}
+
+.hover3{
+    position: absolute;
+    background: #e31b6d;
+    top: 398px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
+}
+
+.hover4{
+    position: absolute;
+    background: #e31b6d;
+    top: 398px;
+    padding: 20.5px;
+    width: 29.5%;
+    left: 303px;
+    color: white;
+    text-align: center;
+}
+
+.hover5{
+    position: absolute;
+    background: #e31b6d;
+    top: 626px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
+}
