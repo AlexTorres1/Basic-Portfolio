@@ -50,8 +50,8 @@ nav li{
 
 .wrapper{
     border-style: solid;
-    border-color: #dddddd;
-    border-width: 2px;
+    border-color: #777777;
+    border-width: 1px;
     max-width: 960px;
     margin: 80px auto;
     background-color: #ffffff;
@@ -109,8 +109,15 @@ h3{
     color: white;
     font-size: 20px;
     margin-top: 20px;
-    background-size: 20px;
+    height: 80px;
+    width: 200px;
     background-color: #04c2c9;  
+}
+
+.btn:hover{
+    color: #e31b6d;
+    transition: color .5s;
+    cursor: pointer;
 }
 
 .inp{
@@ -139,6 +146,10 @@ a:hover {
     color: #e31b6d;
     transition: color .5s;
     cursor: pointer;
+}
+
+a:active{
+    color: #e31b6d;
 }
   
 a{
