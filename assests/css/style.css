@@ -23,8 +23,8 @@ body{
 
 .h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: -1PX;
-    padding: 23px;
+    margin: 0PX;
+    padding: 24px;
     /*not sure if this is the correct way but it works*/
     float: left;
     color: #eeeeee;
@@ -109,8 +109,8 @@ h3{
     color: white;
     font-size: 20px;
     margin-top: 20px;
-    height: 80px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     background-color: #04c2c9;  
 }
 
@@ -142,11 +142,8 @@ a:hover, .btn:hover {
     cursor: pointer;
 }
 
-a:active{
-    color: #e31b6d;
-}
-  
 a{
     text-decoration: none;
     color: #777777;
 }
+
