@@ -35,12 +35,12 @@ nav {
     padding-right: 23px;
     float: right;
     color: #777777;
-    list-style: none;
     margin-top: 20px
 }
 
 nav ul{
        list-style: none;
+       text-transform: uppercase;
 }
 
 nav li{
@@ -50,12 +50,11 @@ nav li{
 
 .wrapper{
     border-style: solid;
-    border-color: #777777;
+    border-color: #c7c3c3;
     border-width: 1px;
     max-width: 960px;
     margin: 80px auto;
     background-color: #ffffff;
-    position: relative;
 }
 
 .pic{
@@ -67,7 +66,7 @@ nav li{
 
 .pd{
     padding: 20px;
-    overflow: auto;
+    overflow: auto
 }
 
 .h2{
@@ -135,7 +134,6 @@ h3{
     height: 200px;
     margin: auto;
     /* could not figure out how to get the images to correctly follow the instructions.  Not sure how to add the text inside the images.  */
-    position: relative;
 }
 
 
@@ -150,33 +148,65 @@ a{
     color: #777777;
 }
 
-.hover-text-1{
-    color: green;
-    width: 80%;
-    top: 20px;
-    left: 20px;
+.img{
+    margin: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+img{
+    width: 300px;
+    position: relative;
+}
+
+.hover1{
+    position: absolute;
     background: #e31b6d;
+    top: 164px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
+}
+
+.hover2{
     position: absolute;
-
+    background: #e31b6d;
+    top: 164px;
+    padding: 20.5px;
+    width: 29.5%;
+    left: 303px;
+    color: white;
+    text-align: center;
 }
 
-.hover-text-2{
-    color: green;
-    width: 80%;
-    top: 20px;
-    left: 20px;
-    background: #04c2c9;
+.hover3{
     position: absolute;
-
+    background: #e31b6d;
+    top: 398px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
 }
 
-.images{
-    float: left;
-    width: 33%;
-    padding: 5px;   
+.hover4{
+    position: absolute;
+    background: #e31b6d;
+    top: 398px;
+    padding: 20.5px;
+    width: 29.5%;
+    left: 303px;
+    color: white;
+    text-align: center;
 }
 
-.clsImg{
-    max-width: 100%;
-    max-height: 100%;
+.hover5{
+    position: absolute;
+    background: #e31b6d;
+    top: 626px;
+    padding: 20.5px;
+    width: 29.5%;
+    color: white;
+    text-align: center;
 }
