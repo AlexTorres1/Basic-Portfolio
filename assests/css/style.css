@@ -24,9 +24,8 @@ body{
 .h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0PX;
-    padding: 24px;
-    /*not sure if this is the correct way but it works*/
-    float: left;
+    padding: 22px;
+    display: inline-block;
     color: #eeeeee;
     background-color: #04c2c9    
 }
