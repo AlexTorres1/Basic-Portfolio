@@ -12,6 +12,7 @@ body{
 .nav-bar{
     width: 960px;
     margin: auto;    
+    height: 80px;
 }
 
 .header{
@@ -24,7 +25,7 @@ body{
 .h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0PX;
-    padding: 22px;
+    padding: 24px;
     display: inline-block;
     color: #eeeeee;
     background-color: #04c2c9    
