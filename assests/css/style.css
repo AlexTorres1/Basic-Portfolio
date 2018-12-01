@@ -117,7 +117,8 @@ h3{
 
 .inp{
     height: 30px;    
-    width: 100%
+    width: 100%;
+    padding-left: 5px;
 }
 .message{
     height: 150px;
